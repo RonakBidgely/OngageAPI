@@ -3,13 +3,13 @@ package com.example.JavaOngageAPI;
 public class Properties {
 
     public static String getName(){
-        return "ronakdoshi";
+        return "";
     }
 
     public static String getPassword(){
-        return "Bidgely@123";
+        return "";
     }
     public static String getAccountCode(){
-        return "bidgely6";
+        return "";
     }
 }
