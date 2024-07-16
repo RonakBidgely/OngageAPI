@@ -1,6 +1,7 @@
 package com.example.JavaOngageAPI;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.stereotype.Component;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -9,6 +10,7 @@ import java.net.http.HttpResponse;
 import java.nio.file.Path;
 import java.util.HashMap;
 
+@Component
 public class PutMethod {
 
     String name = Properties.getName();
